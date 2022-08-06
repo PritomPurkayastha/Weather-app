@@ -1,0 +1,28 @@
+.weatherForecast h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.dailyForecast{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.forecast{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    width: 150px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.forecast h4{
+    text-align: center;
+}
+.forecast .temp{
+    font-size: 18px;
+    font-weight: 500;
+}
